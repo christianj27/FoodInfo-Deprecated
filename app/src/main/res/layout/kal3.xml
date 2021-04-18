@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer"
+    tools:context=".Main">
+
+    <RelativeLayout
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_material_dark"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/kal3"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-30dp"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tkal3"
+            android:layout_marginTop="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_above="@+id/imageView1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/textcolor"
+                    android:text=" \t\tManday adalah salah satu jenis lauk alternatif dari daerah Kalimantan. Biasanya disebut dengan Mandai Basang atau kulit buah Cempedak yang digoreng. Orang Banjar biasanya menyebut makanan dari kulit cempedak ini dengan Manday tapi ada juga yang menyebutnya dengan dami.
+\n\t\tSebelum menikmatinya, kulit cempedaknya harus  dikupas dari kulit bagian luar cempedak sehingga yang terlihat bagian warna putihnya saja. Potong sesuai dengan selera. Dibersihkan dengan air, lalu direndam pakai air bersih yang ditambahkan dengan garam pada wadah tertutup. Kulit cempedak ini baru bisa dinikmati minimal setelah direndam 7 hari.
+\n\t\tSetelah direndam dan ingin menggorengnya, cuci kulit mandai yang sudah lunak dengan air bersih, diperas dan potong kecil-kecil sesuai selera. Tambahkan sedikit garam, lalu digoreng. Goreng hingga matang kuning kecoklatan dan kering. Angkat dan tiriskan. Dan siap di santap dengan nasi putih hangat.  Dapat divariasikan dengan menambahkan bawang atau cabai saat menggoreng atau menumisnya." />
+
+            </RelativeLayout>>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

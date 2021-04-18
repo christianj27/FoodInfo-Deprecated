@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer"
+    tools:context=".Main">
+
+    <RelativeLayout
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="480dp"
+            android:layout_height="250dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/sum2"
+            android:layout_marginTop="-20dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tsum2"
+            android:layout_marginTop="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_above="@+id/imageView1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/textcolor"
+                    android:text=" \t\tBika Ambon adalah salah satu makanan khas jenis kue basah yang berasal dari Kota Medan, Sumatera Utara. Kue satu ini memiliki ciri khas dengan warnanya yang kuning dan memiliki rongga-rongga di bagian dalamnya. Selain itu kue Bika Ambon juga memiliki citarasa dan aroma yang khas sehingga membuat kita ketagihan untuk menyantapnya. Di Kota Medan sendiri, kue Bika Ambon ini sudah sangat terkenal dan menjadi salah satu icon kuliner kebanggaan masyarakat di sana. Sehingga selalu menjadi buruan para pecinta kuliner maupun para wisatawan saat berkunjung ke sana.
+\n\t\tBahan yang digunakan untuk membuat Bika Ambon ini diantaranya adalah tepung, telur, nira, gula, dan santan. Sedangkan untuk bahan penyedap bisa menggunakan daun pandan, daun jeruk, atau vanilli. Dalam proses pembuatannya, pertama, rebus santan bersama dengan daun jeruk dan daun pandan. Setelah santan tersebut didinginkan, kemudian masukan satu per satu bahan seperti telur, tepung, gula, dan nira. Bahan tersebut diaduk hingga merata, kemudian didiamkan selama beberapa jam sampai mengendap. Setelah itu kemudian adonan tersebut dimasukan ke dalam oven dengan api sedang, dan tunggu hingga kue tersebut matang.
+\n\t\tBika Ambon ini memiliki cita rasa yang sangat khas. Rasanya yang legit berpadu dengan teksturnya yang kenyal tentu menimbulkan sensasi tersendiri saat kita menyantapnya. Selain itu aromanya yang kuat juga sangat menggugah selera.
+" />
+
+            </RelativeLayout>>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

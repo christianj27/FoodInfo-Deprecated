@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawer"
+    tools:context=".Main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/header1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_material_dark"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            android:layout_marginTop="-20dp"
+            app:srcCompat="@drawable/jaw1"
+            android:scaleType="fitCenter"
+
+            android:layout_marginBottom="-10dp"
+            android:layout_alignParentBottom="true" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/tjaw1"
+            android:layout_marginTop="31dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView2"
+            android:layout_below="@+id/imageView2"
+            android:layout_above="@+id/imageView1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginEnd="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="15dp"
+                    android:textColor="@color/textcolor"
+                    android:text=" \t\tSate di nusantara pada umumnya menggunakan daging ayam, sapi atau kerbau sebagai bahan dasarnya. Namun di Kota Serang, Banten, ada satu sate yang unik karena tidak menggunakan daging ayam maupun sapi tapi menggunakan ikan bandeng sebagai bahan utamanya. Kuliner inipun menjadi salah satu ciri khas kuliner dari Kota Serang, namanya Sate Bandeng.
+\n\t\tSesuai namanya, sate ini menggunakan ikan bandeng atau yang bernama latin Chanos chanos. Ikan ini memiliki duri yang sangat banyak dan menempel pada bagian dalam dagingnya. Sehingga saat proses pembuatan sate, duri-duri ini dihilangkan terlebih dahulu. Cara ini juga yang dipakai pada abad 16 oleh juru masak Kerajaan Banten Girang saat pertama kali membuat sate bandeng.
+\n\t\tAwalnya juru masak bingung saat ingin menyuguhkan hidangan ikan bandeng. Dirinya pun memutar otak untuk meminimalisir duri yang tertanam di daging ikan. Tak habis akal, sang juru masak memukul ikan hingga dagingnya hancur dan terpisah dari kulitnya. Daging yang telah hancur itu kemudian dikeluarkan dengan cara mencabut tulang dari bagian bawah kepala. Hal tersebut untuk membuang duri-duri halus yang terkandung dalam ikan.
+\n\t\tDaging ikan kemudian dicampur dengan santan dan bumbu rempah kemudian dimasukan kembali ke dalam ikan. Kulit ikan bandeng yang keras membuat ikan terlihat seperti utuh kembali, setelah itu ikan dibakar.
+\n\t\tHingga kini cara tersebut masih dipertahankan oleh masyarakat Kota Serang. Bahkan sate bandeng telah menjadi ikon yang khas saat berkunjung ke Banten khususnya Kota Serang sebagai ibukota." />
+
+            </RelativeLayout>>
+        </ScrollView>
+
+
+
+    </RelativeLayout>
+</android.support.v4.widget.DrawerLayout>

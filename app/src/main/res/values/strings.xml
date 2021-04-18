@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FoodInfo</string>
+    <string name="secondary_name">FoodInfo</string>
+    <string name="openDrawer">Drawer dibuka</string>
+    <string name="closeDrawer">Drawer ditutup</string>
+    <string name="nav1">Beranda</string>
+    <string name="nav2">Tentang</string>
+    <string name="nav3">Sumatera</string>
+    <string name="nav4">Jawa</string>
+    <string name="nav5">Kalimantan</string>
+    <string name="nav6">Sulawesi</string>
+    <string name="nav7">Papua</string>
+    <string name="title_activity_maps_sum1">Map</string>
+</resources>
